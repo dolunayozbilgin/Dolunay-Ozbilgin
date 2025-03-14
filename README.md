@@ -11,7 +11,7 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 
 - **Game Performance Metrics**: I will track my rating, accuracy, number of blunders, and mistakes from Chess.com or Lichess(These are the platforms that I use for playing chess.).
 
-- **Cognitive Performance**: I will assess reaction time, problem-solving speed, and focus levels using cognitive test websites such as Human Benchmark and OpenPsychometrics(These websites would be changed if I can found better tools for this purposes.).
+- **Cognitive Performance**: I will assess reaction time, problem-solving speed, and focus levels using cognitive tests that are memory tests such as Digit Span Test, Attention and Focus Tests such as Stroop Test,lastly Processing Speed and Reaction Time tests such as Go/No-Go Test.These test are available free in several websites like Human Benchmark in internet, so it is easy to access and make them.(These tests would be changed if I can found better tests for this purposes.).
 
 - **Game Type**: The chess format played (Blitz, Rapid, Classical) will be recorded to analyze its impact on cognitive performance.
 
@@ -22,11 +22,11 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 - Data will be collected throughout the research period while maintaining consistency in:
   - Chess platform usage (Chess.com or Lichess).
   - Playing time and game format.
-  - Cognitive test timing (before and after playing chess).
+  - Cognitive tests results.(Before and after playing chess and after the day I played chess and after the day that I don't play chess.
 
 - **Sources:**
   - Chess data will be manually recorded from my personal games on Chess.com/Lichess.
-  - Cognitive performance will be assessed using Human Benchmark and OpenPsychometrics tests.
+  - Cognitive performance will be assessed using tests that I mentioned above.
 
 - **Data Recording Strategy:**
   - Information will be logged immediately after each session to ensure accuracy.
@@ -40,7 +40,7 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 - **Exploratory Data Analysis (EDA):**
   - Trends in chess performance and cognitive test scores will be identified using statistical methods and visualizations.
 - **Statistical Analysis:**
-  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Main focus is I try to compare the test results that I get after chess session and no-chess session.It aims to understand whether there is a significant relationship between chess-playing time and cognitive improvement or not.Additionally, trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools. First, basic statistics like average scores, highest and lowest scores, and how much scores vary will be calculated. Then, relationships between chess skills (such as Elo rating, number of mistakes, and accuracy) and cognitive test results (such as memory recall, problem-solving speed, and logical reasoning) will be explored.This aims to determine whether my cognitive test results are paralel with my performance in chess.For example, if a player's Elo rating improves over time, we will check if their problem-solving speed also improves. If someone makes fewer blunders in chess, we will see if their memory test scores also get better. To make patterns easy to understand, we will create graphs like line charts to show progress over time, scatter plots to see if two factors are connected, and heatmaps to highlight strong relationships.
+  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Main focus is I try to compare the test results that I get after chess session and no-chess session.Additionally, trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools.
 - **Regression Analysis:**
   - Linear regression models will be applied to investigate potential relationships between chess-playing time and cognitive improvements.
 
