@@ -7,13 +7,13 @@ In this project, I will analyze how chess-playing habits influence cognitive abi
 ## **Description of Dataset**
 - **Total duration of each chess session**: I will manually record my chess playing time for each session.
 
-- **Game Performance Metrics**: I will track my rating, accuracy, number of blunders, and mistakes from Chess.com or Lichess.
+- **Game Performance Metrics**: I will track my rating, accuracy, number of blunders, and mistakes from Chess.com or Lichess(These are the platforms that I use for playing chess.).
 
-- **Cognitive Performance**: I will assess reaction time, problem-solving speed, and focus levels using cognitive test websites such as Human Benchmark and OpenPsychometrics.
+- **Cognitive Performance**: I will assess reaction time, problem-solving speed, and focus levels using cognitive test websites such as Human Benchmark and OpenPsychometrics(These websites would be changed if I can found better tools for this purposes.).
 
 - **Game Type**: The chess format played (Blitz, Rapid, Classical) will be recorded to analyze its impact on cognitive performance.
 
-- **Date of Play**: Each session will be logged with a date to track long-term progress and trends.
+- **Date of Play**: I generally play everyday chess, because I love to play it:).Each session will be recorded and the datas I obtained will be used in folowing steps.
 
 ## **Plan**
 #### **Data Collection**
