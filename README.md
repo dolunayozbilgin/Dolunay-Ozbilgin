@@ -1,4 +1,4 @@
-# Dolunay Ozbilgin DSA 210 
+# Dolunay Özbilgin DSA 210 
 # Chess Habits & Cognitive Impact
 
 ## **Project Idea**
@@ -36,14 +36,17 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 #### **Data Preparation and Analysis**
 - At the end of the data collection period:
   - Data will be reviewed for completeness and consistency.
+  - I try to understand that Is there a certain correlation between my chess habits and my cognitive results, and is there a certain difference between my initial and final test in these 30 days that I measured myself because I played chess regularly.
 - **Exploratory Data Analysis (EDA):**
   - Trends in chess performance and cognitive test scores will be identified using statistical methods and visualizations.
 - **Statistical Analysis:**
-  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.
+  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools. First, basic statistics like average scores, highest and lowest scores, and how much scores vary will be calculated. Then, relationships between chess skills (such as Elo rating, number of mistakes, and accuracy) and cognitive test results (such as memory recall, problem-solving speed, and logical reasoning) will be explored.
+
+For example, if a player's Elo rating improves over time, we will check if their problem-solving speed also improves. If someone makes fewer blunders in chess, we will see if their memory test scores also get better. To make patterns easy to understand, we will create graphs like line charts to show progress over time, scatter plots to see if two factors are connected, and heatmaps to highlight strong relationships.
 - **Regression Analysis:**
   - Linear regression models will be applied to investigate potential relationships between chess-playing time and cognitive improvements.
 
-## **Report**
+
 ## **Introduction**
 The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time and problem-solving ability. This study aims to determine whether consistent chess practice enhances cognitive performance, providing insights into potential cognitive benefits of chess engagement.
 
