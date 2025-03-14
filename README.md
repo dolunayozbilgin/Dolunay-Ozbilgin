@@ -11,7 +11,7 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 
 - **Game Performance Metrics**: I will track my rating, accuracy, number of blunders, and mistakes from Chess.com or Lichess(These are the platforms that I use for playing chess.).
 
-- **Cognitive Performance**: I will assess reaction time, problem-solving speed, and focus levels using cognitive tests that are memory tests such as Digit Span Test, Attention and Focus Tests such as Stroop Test,lastly Processing Speed and Reaction Time tests such as Go/No-Go Test.These test are available free in several websites like Human Benchmark in internet, so it is easy to access and make them.(These tests would be changed if I can found better tests for this purposes.).
+- **Cognitive Performance**: I will assess reaction time, memory, and focus levels using cognitive tests that are memory tests such as Digit Span Test, Attention and Focus Tests such as Stroop Test,lastly Processing Speed and Reaction Time tests such as Go/No-Go Test.These test are available free in several websites like Human Benchmark in internet, so it is easy to access and make them.(These tests would be changed if I can found better tests for this purposes.).
 
 - **Game Type**: The chess format played (Blitz, Rapid, Classical) will be recorded to analyze its impact on cognitive performance.
 
@@ -46,22 +46,22 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 
 
 ## **Introduction**
-The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time and problem-solving ability. This study aims to determine whether consistent chess practice enhances cognitive performance, providing insights into potential cognitive benefits of chess engagement.
+The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time,focus and memory. This study aims to determine whether consistent chess practice enhances cognitive performance, providing insights into potential cognitive benefits of chess engagement.
 
 ## **Hypothesis**
-- **Null Hypothesis (H0):** There is no significant relationship between chess-playing time and cognitive improvement. Playing more chess does not significantly affect reaction time and problem-solving ability.
-- **Alternative Hypothesis (H1):** There is a significant relationship between chess-playing time and cognitive improvement. Increased chess-playing time is associated with enhanced reaction time and problem-solving ability.
+- **Null Hypothesis (H0):** There is no significant relationship between chess-playing time and cognitive improvement. Playing more chess does not significantly affect our cognitive capacity.
+- **Alternative Hypothesis (H1):** There is a significant relationship between chess-playing time and cognitive improvement. Increased chess-playing time is associated with better test results.
 
 ## **Methods**
 #### **Data Collection**
 Throughout the study period, data will be collected using the following methods:
 - **Chess Data:** Manually recorded from Chess.com or Lichess, including game format, accuracy, rating progression, and blunders.
-- **Cognitive Performance Data:** Reaction time and problem-solving speed will be recorded from Human Benchmark and OpenPsychometrics tests.
+- **Cognitive Performance Data:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded from Human Benchmark etc.
 
 #### **Dataset**
 - **Date and Game Type:** Each chess session will be logged with a date and the format played (Blitz, Rapid, Classical).
 - **Game Metrics:** Accuracy, rating, blunders, and mistakes per game will be recorded.
-- **Cognitive Performance:** Reaction time and problem-solving test scores will be recorded before and after chess sessions.
+- **Cognitive Performance:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded before and after chess sessions and at the end of the days that I play chess and I don't play chess.
 - **Duration of Play:** Total time spent playing chess will be noted to analyze its impact on cognition.
 
 
