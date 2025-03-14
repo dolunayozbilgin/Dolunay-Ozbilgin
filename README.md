@@ -40,9 +40,7 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 - **Exploratory Data Analysis (EDA):**
   - Trends in chess performance and cognitive test scores will be identified using statistical methods and visualizations.
 - **Statistical Analysis:**
-  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools. First, basic statistics like average scores, highest and lowest scores, and how much scores vary will be calculated. Then, relationships between chess skills (such as Elo rating, number of mistakes, and accuracy) and cognitive test results (such as memory recall, problem-solving speed, and logical reasoning) will be explored.
-
-For example, if a player's Elo rating improves over time, we will check if their problem-solving speed also improves. If someone makes fewer blunders in chess, we will see if their memory test scores also get better. To make patterns easy to understand, we will create graphs like line charts to show progress over time, scatter plots to see if two factors are connected, and heatmaps to highlight strong relationships.
+  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Main focus is I try to compare the test results that I get after chess session and no-chess session.It aims to understand whether there is a significant relationship between chess-playing time and cognitive improvement or not.Additionally, trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools. First, basic statistics like average scores, highest and lowest scores, and how much scores vary will be calculated. Then, relationships between chess skills (such as Elo rating, number of mistakes, and accuracy) and cognitive test results (such as memory recall, problem-solving speed, and logical reasoning) will be explored.This aims to determine whether my cognitive test results are paralel with my performance in chess.For example, if a player's Elo rating improves over time, we will check if their problem-solving speed also improves. If someone makes fewer blunders in chess, we will see if their memory test scores also get better. To make patterns easy to understand, we will create graphs like line charts to show progress over time, scatter plots to see if two factors are connected, and heatmaps to highlight strong relationships.
 - **Regression Analysis:**
   - Linear regression models will be applied to investigate potential relationships between chess-playing time and cognitive improvements.
 
@@ -65,5 +63,5 @@ Throughout the study period, data will be collected using the following methods:
 - **Game Metrics:** Accuracy, rating, blunders, and mistakes per game will be recorded.
 - **Cognitive Performance:** Reaction time and problem-solving test scores will be recorded before and after chess sessions.
 - **Duration of Play:** Total time spent playing chess will be noted to analyze its impact on cognition.
-- **Focus and Mood Levels:** Self-reported observations on concentration and mental state before and after playing chess.
+
 
