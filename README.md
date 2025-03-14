@@ -4,6 +4,8 @@
 ## **Project Idea**
 In this project, I will analyze how chess-playing habits influence cognitive abilities such as reaction time, problem-solving, and decision-making speed. My goal is to understand the relationship between chess engagement and mental performance by collecting and analyzing chess gameplay data and cognitive test results.
 
+I decided to work on this topic, because chess is playing a huge role in my daily life.And, there are so many discussions about whether chess is beneficial for mental and cognitive development of young people.So, I want to make this ongoing debates clear at least for myself, while I am doing my hobby everday.Now, I will mention the keypoints of my work.
+
 ## **Description of Dataset**
 - **Total duration of each chess session**: I will manually record my chess playing time for each session.
 
@@ -13,7 +15,7 @@ In this project, I will analyze how chess-playing habits influence cognitive abi
 
 - **Game Type**: The chess format played (Blitz, Rapid, Classical) will be recorded to analyze its impact on cognitive performance.
 
-- **Date of Play**: I generally play everyday chess, because I love to play it:).Each session will be recorded and the datas I obtained will be used in folowing steps.
+- **Date of Play**: I generally play everyday chess, because I love to play it:) but, in this proccess, somedays I will not play chess, and then I make the cognitive tests for comparing the results. Each session will be recorded and the datas I obtained will be used in folowing phases.
 
 ## **Plan**
 #### **Data Collection**
