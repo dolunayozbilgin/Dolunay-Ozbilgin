@@ -80,7 +80,7 @@ Data was collected under controlled conditions using either **Chess.com** or **L
 
 
 
-- ## Methodology: Data Collection & Analysis
+## **Methodology: Data Collection & Analysis**
 
 ### Consistency & Bias Minimization
 
