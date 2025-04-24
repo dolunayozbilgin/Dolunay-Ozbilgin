@@ -24,9 +24,43 @@ I decided to work on this topic, because chess is playing a huge role in my dail
   - Playing time and game format.
   - Cognitive tests results.(Before and after playing chess and after the day I played chess and after the day that I don't play chess.
 
-- **Sources:**
-  - Chess data will be manually recorded from my personal games on Chess.com/Lichess.
-  - Cognitive performance will be assessed using tests that I mentioned above.
+
+##  Sources
+
+###  Go/No-Go Test
+- **Purpose**: Assesses response inhibition and impulse control.
+- **Scientific Reference**:  
+  [A Formal Cognitive Model of the Go/No-Go Discrimination Task](https://pmc.ncbi.nlm.nih.gov/articles/PMC2752340/)
+- **Online Tool**:  
+  [PsyToolkit - Go/No-Go Task](https://www.psytoolkit.org/experiment-library/go-no-go.html)
+
+---
+
+###  Digit Span Test
+- **Purpose**: Measures short-term and working memory.
+- **Scientific Reference**:  
+  [Digit Span - ScienceDirect Topics](https://www.sciencedirect.com/topics/psychology/digit-span)
+- **Online Tool**:  
+  [Cambridge Cognition - Digit Span (DGS)](https://cambridgecognition.com/digit-span-dgs/)
+
+---
+
+###  Stroop Test
+- **Purpose**: Measures attention, cognitive flexibility, and processing speed.
+- **Scientific Reference**:  
+  [The Stroop Color and Word Test - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5388755/)
+- **Online Tool**:  
+  [PsyToolkit - Stroop Task](https://www.psytoolkit.org/experiment-library/stroop.html)
+
+---
+
+###  Verbal Memory Test
+- **Purpose**: Evaluates the ability to encode, retain, and recall verbal information.
+- **Scientific Reference**:  
+  [Verbal Memory Test - ScienceDirect Topics](https://www.sciencedirect.com/topics/nursing-and-health-professions/verbal-memory-test)
+- **Online Tool**:  
+  [Pearson Clinical - Verbal Memory](https://pearsonclinical.in/solution_category/clinical-psychology/memory/visual-verbal/)
+
 
 - **Data Recording Strategy:**
   - Information will be logged immediately after each session to ensure accuracy.
