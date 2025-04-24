@@ -62,6 +62,24 @@ I decided to work on this topic, because chess is playing a huge role in my dail
   [Pearson Clinical - Verbal Memory](https://pearsonclinical.in/solution_category/clinical-psychology/memory/visual-verbal/)
 
 
+
+###  Chess Data Consistency
+
+- **Purpose**: Ensures that the measurement of chess performance (e.g., accuracy, rating, play time) remains standardized throughout the research period.
+
+- **Methodological Standard**: 
+Data was collected under controlled conditions using either **Chess.com** or **Lichess.org**, two widely recognized chess platforms. These platforms provide consistent, reliable, and detailed game statistics including:
+- Game duration
+- Accuracy and evaluation metrics
+- Number of blunders and mistakes
+- Game format (e.g., Blitz, Rapid)
+
+- **Platform References**:
+- [Chess.com – Stats, Accuracy, and Game Reports](https://www.chess.com/stats)
+- [Lichess.org – Advanced Chess Insights and Export Tools](https://lichess.org/@/username/perf)
+
+
+
 - **Data Recording Strategy:**
   - Information will be logged immediately after each session to ensure accuracy.
   - Data will be systematically organized in Google Sheets or Excel.
