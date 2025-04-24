@@ -80,21 +80,38 @@ Data was collected under controlled conditions using either **Chess.com** or **L
 
 
 
-- **Data Recording Strategy:**
-  - Information will be logged immediately after each session to ensure accuracy.
-  - Data will be systematically organized in Google Sheets or Excel.
-  - Confounding variables, such as fatigue and distractions, will be noted for better analysis.
+- ## Methodology: Data Collection & Analysis
 
-#### **Data Preparation and Analysis**
-- At the end of the data collection period:
-  - Data will be reviewed for completeness and consistency.
-  - I try to understand that Is there a certain correlation between my chess habits and my cognitive results, and is there a certain difference between my initial and final test in these 30 days that I measured myself because I played chess regularly.
-- **Exploratory Data Analysis (EDA):**
-  - Trends in chess performance and cognitive test scores will be identified using statistical methods and visualizations.
-- **Statistical Analysis:**
-  - Correlation tests will be conducted to examine the impact of chess engagement on reaction time and problem-solving skills.Main focus is I try to compare the test results that I get after chess session and no-chess session.Additionally, trends in chess performance and cognitive test scores will be analyzed using simple statistics and visual tools.
-- **Regression Analysis:**
-  - Linear regression models will be applied to investigate potential relationships between chess-playing time and cognitive improvements.
+### Consistency & Bias Minimization
+
+To ensure data quality and minimize bias in the analysis of the relationship between chess playing and cognitive performance:
+
+-  All data (chess sessions and cognitive tests) is recorded **immediately after each session** to maintain accuracy and reduce memory bias.
+-  Information is **systematically organized** by date and test type (Go/No-Go, Verbal Memory, Digit Span, Stroop).
+-  **Confounding variables** (e.g., sleep, stress, fatigue) and **outliers** are carefully monitored and noted during data logging to improve reliability.
+
+---
+
+###  Data Preparation & Analysis
+
+At the end of the data collection period, the following steps will be taken:
+
+####  Data Review
+- All entries will be checked for **completeness**, **consistency**, and **logical coherence** (e.g., reaction times not being too low or high).
+- Duplicate, missing, or corrupted entries will be corrected or removed.
+
+####  Exploratory Data Analysis (EDA)
+- Trends will be explored using:
+  - Descriptive statistics (mean, median, std deviation)
+  - Time series and session-based visualizations
+  - Correlation heatmaps to assess relationships between chess activity and test results
+
+####  Regression Analysis
+- Statistical modeling will be used to explore:
+  - The impact of chess session variables (e.g., play time, mistakes, rating) on cognitive test outcomes
+  - Differences in **before vs. after** performance for each cognitive test
+  - Longitudinal patterns in cognitive performance over time
+
 
 
 ## **Introduction**
