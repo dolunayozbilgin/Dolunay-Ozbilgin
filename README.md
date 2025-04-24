@@ -64,4 +64,50 @@ Throughout the study period, data will be collected using the following methods:
 - **Cognitive Performance:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded before and after chess sessions and at the end of the days that I play chess and I don't play chess.
 - **Duration of Play:** Total time spent playing chess will be noted to analyze its impact on cognition.
 
+## **Data Processing**
+- **Data Cleaning:**
+Converted date and time into appropriate formats.
 
+
+
+##  **Visualization Techniques**
+
+### **Univariate Analysis**
+- **Histogram for Play Time (min)**  
+  To explore the distribution of chess session durations.
+- **Histogram for Accuracy (%)**  
+  To understand the spread and consistency of chess performance.
+- **Histogram for Stroop Score (Before & After)**  
+  To evaluate attention and interference control levels individually.
+- **Count Plot for Game Type**  
+  To visualize frequency of Blitz, Rapid, and Classical games.
+
+---
+
+### **Bivariate Analysis**
+- **Boxplots for Cognitive Test Scores (Before vs After)**  
+  Used to compare memory (Digit Span), attention (Stroop), and reaction time changes across sessions.
+- **Scatter Plots**  
+  - *Play Time vs Cognitive Improvements (Stroop/Reaction Time)*  
+  - *Accuracy vs Digit Span Delta*  
+  To examine potential correlations between chess performance and cognitive gain.
+
+---
+
+### **Multivariate Analysis**
+- **Grouped Bar Plots**  
+  Compare chess vs non-chess days across cognitive outcomes.
+- **Correlation Heatmap**  
+  To explore relationships between chess metrics (duration, accuracy, blunders) and cognitive metrics (test deltas).
+- **Line Charts (Timeline)**  
+  To track day-by-day progress of chess performance and mental sharpness.
+
+---
+
+##  **Machine Learning Models** *(optional extension)*
+> For predicting cognitive performance based on gameplay features:
+- **Linear Regression**
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
+
+  
