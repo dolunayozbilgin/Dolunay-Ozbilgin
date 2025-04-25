@@ -25,9 +25,44 @@ I decided to work on this topic, because chess is playing a huge role in my dail
   - Cognitive tests results.(Before and after playing chess and after the day I played chess and after the day that I don't play chess.
 
 
+## Cognitive Tests and Measured Skills
+
+### Reaction Time Test
+- **Measures:**
+  - Decision-making speed
+  - Reflex response time
+  - Attention and alertness
+- **Description:**  
+  Assesses how quickly and accurately a person can respond to a stimulus. It reflects cognitive speed and focused attention.
+
+### Stroop Test
+- **Measures:**
+  - Attention control
+  - Cognitive flexibility
+  - Interference management
+- **Description:**  
+  Evaluates the ability to maintain focus and respond correctly when presented with conflicting information. It tests mental control and switching abilities.
+
+### Digit Span Test
+- **Measures:**
+  - Working memory
+  - Short-term memory capacity
+  - Information processing and management
+- **Description:**  
+  Measures the ability to temporarily hold and manipulate sequences of numbers. It reflects the brain’s memory load handling ability.
+
+### Verbal Memory Test
+- **Measures:**
+  - Verbal memory
+  - Learning and information retention
+  - Recall ability
+- **Description:**  
+  Assesses how well a person can learn, store, and later recall verbal information such as words or phrases.
+
+
+
+
 ##  Sources
-
-
 
 ###  Digit Span Test
 - **Purpose**: Measures short-term and working memory.
