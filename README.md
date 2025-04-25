@@ -144,9 +144,6 @@ At the end of the data collection period, the following steps will be taken:
 ## **Introduction**
 The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time,focus and memory. This study aims to determine whether consistent chess practice enhances cognitive performance, providing insights into potential cognitive benefits of chess engagement.
 
-## **Hypothesis**
-- **Null Hypothesis (H0):** There is no significant relationship between chess-playing time and cognitive improvement. Playing more chess does not significantly affect our cognitive capacity.
-- **Alternative Hypothesis (H1):** There is a significant relationship between chess-playing time and cognitive improvement. Increased chess-playing time is associated with better test results.
 
 ## **Methods**
 #### **Data Collection**
@@ -154,11 +151,6 @@ Throughout the study period, data will be collected using the following methods:
 - **Chess Data:** Manually recorded from Chess.com or Lichess, including game format, accuracy, rating progression, and blunders.
 - **Cognitive Performance Data:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded from Human Benchmark etc.
 
-#### **Dataset**
-- **Date and Game Type:** Each chess session will be logged with a date and the format played (Blitz, Rapid, Classical).
-- **Game Metrics:** Accuracy, rating, blunders, and mistakes per game will be recorded.
-- **Cognitive Performance:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded before and after chess sessions and at the end of the days that I play chess and I don't play chess.
-- **Duration of Play:** Total time spent playing chess will be noted to analyze its impact on cognition.
 
 ## **Data Processing**
 - **Data Cleaning:**
@@ -191,11 +183,10 @@ There is no outliers, because the test results are not extreme with eachother.I 
 
 ---
 
-##  **Machine Learning Models** *(optional extension not used in this proejct)*
+##  **Machine Learning Models** *(optional extension)*
 > For predicting cognitive performance based on gameplay features:
 - **Linear Regression**
-- **Decision Tree Regressor**
-- **Random Forest Regressor**
+
 
   
 # Hypothesis Testing Summary for Chess and Cognitive Performance Project
