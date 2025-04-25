@@ -222,9 +222,10 @@ For each test:
 
 ## Final Conclusion
 
-The results show that there is strong evidence that chess playing significantly improves cognitive performance across Reaction Time, Digit Span, Stroop, and Verbal Memory based on Paired t-tests. Additionally, linear regression analysis suggests that chess playing significantly predicts improvements in Digit Span scores. However, for other domains, chess playing was not found to be a strong independent predictor.
+The results show that chess playing clearly helps improve cognitive performance in Reaction Time, Digit Span, Stroop, and Verbal Memory, based on paired t-tests. Linear regression also shows that chess playing has a significant positive effect on Digit Span scores. However, for the other tests, chess playing was not found to be a strong, independent factor for 30 days period.
 
-In summary, while chess appears to offer an immediate enhancement to various cognitive skills on the day it is played, when considering a broader timeline of 30 days, chess playing only leads to a measurable and significant improvement in working memory (Digit Span Test). This suggests that chess may have short-term cognitive activation benefits across multiple domains, but its sustained long-term impact might be more specific and limited to certain cognitive abilities such as memory retention.
+In short, chess seems to boost different cognitive skills on the same day it is played. But when we look over a longer period of 30 days, the only clear long-term improvement is seen in working memory (Digit Span Test). This suggests that chess may provide short-term mental benefits across many skills, but its longer-term effects can not be understand by this limited dataset.
 
-It is important to note that if a longer-term dataset (such as six months or one year) were available, the hypothesis might have evolved differently. Scientific research has already demonstrated that chess positively impacts cognitive functions over the long term. However, under the current experimental conditions and limited observation period, the results are confined to these immediate and specific findings.
+Also, test scores on days without chess were generally lower than the "after" scores on chess-playing days. This supports the idea that chess playing helps with short-term cognitive improvement.
 
+It is important to note that if we had a longer dataset (for example, over six months or a year), we might have different results than we had. Past scientific studies already show that chess has positive long-term effects on thinking skills. However, with the current short-term data, we can only prove the instant impact on cognitive skills.
