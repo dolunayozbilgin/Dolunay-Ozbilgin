@@ -119,43 +119,43 @@ To ensure data quality and minimize bias in the analysis of the relationship bet
 
 ---
 
-###  Data Preparation & Analysis
 
-At the end of the data collection period, the following steps will be taken:
+## Introduction
+The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time, focus, and memory. This study aims to determine whether consistent chess practice enhances cognitive performance, offering insights into potential cognitive benefits of chess engagement.
 
-####  Data Review
-- All entries will be checked for **completeness**, **consistency**, and **logical coherence** (e.g., reaction times not being too low or high).
-- Duplicate, missing, or corrupted entries will be corrected or removed.
+## Methodology: Data Collection & Analysis
 
-####  Exploratory Data Analysis (EDA)
-- Trends will be explored using:
-  - Descriptive statistics (mean, median, std deviation)
-  - Time series and session-based visualizations
-  - Correlation heatmaps to assess relationships between chess activity and test results
+### Consistency & Bias Minimization
+- Cognitive test results (Reaction Time, Verbal Memory, Digit Span, Stroop) were recorded **daily**, regardless of chess activity, to ensure unbiased measurement.
+- Chess activity (Yes/No) was logged alongside each day's cognitive scores.
+- Data entries were **immediately recorded** after tests to minimize recall bias.
 
-####  Regression Analysis
-- Statistical modeling will be used to explore:
-  - The impact of chess session variables (e.g., play time, mistakes, rating) on cognitive test outcomes
-  - Differences in **before vs. after** performance for each cognitive test
-  - Longitudinal patterns in cognitive performance over time
+### Data Collection
+- **Chess Data:** Manually collected from Chess.com or Lichess, including game format, accuracy, rating, and blunders.
+- **Cognitive Data:** Collected through platforms like Human Benchmark, covering Reaction Time, Verbal Memory, and Digit Span tests.
 
+### Data Processing
+- Date and time fields were standardized into appropriate formats.
+- No extreme outliers were observed; thus, no outlier removal procedures were necessary.
 
+### Data Review
+- Entries were checked for **completeness**, **consistency**, and **logical accuracy** (e.g., reasonable reaction times).
+- Missing or invalid data points were corrected or removed where necessary.
 
-## **Introduction**
-The main objective of this project is to analyze the relationship between chess-playing habits and cognitive skills such as reaction time,focus and memory. This study aims to determine whether consistent chess practice enhances cognitive performance, providing insights into potential cognitive benefits of chess engagement.
+### Exploratory Data Analysis (EDA)
+- Trends and distributions were explored using:
+  - Descriptive statistics (mean, median, standard deviation)
+  - Histograms, boxplots, and scatterplots comparing chess and non-chess days
+  - Correlation heatmaps to explore relationships between chess activity and cognitive improvements
 
+### Hypothesis Testing
+- **Paired t-tests** were used to assess significant differences between Before and After cognitive scores.
+- **Linear regression** was applied to examine whether chess playing predicts cognitive improvements.
 
-## **Methods**
-#### **Data Collection**
-Throughout the study period, data will be collected using the following methods:
-- **Chess Data:** Manually recorded from Chess.com or Lichess, including game format, accuracy, rating progression, and blunders.
-- **Cognitive Performance Data:** Memory tests scores ,Digit Span Test scores and Processing Speed and Reaction Time tests scores will be recorded from Human Benchmark etc.
+### Summary
+- Day-by-day short-term cognitive effects were evaluated.
+- Potential cumulative effects across the 30-day observation period were assessed through statistical modeling.
 
-
-## **Data Processing**
-- **Data Cleaning:**
-Converted date and time into appropriate formats.
-There is no outliers, because the test results are not extreme with eachother.I don't need to apply any method for deleting outliers.
 
 ##  **Visualization Techniques**
 
