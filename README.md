@@ -81,7 +81,6 @@ To ensure data quality and minimize bias in the analysis of the relationship bet
 
 -  All data (chess sessions and cognitive tests) is recorded **immediately after each session** to maintain accuracy and reduce memory bias.
 -  Information is **systematically organized** by date and test type (Go/No-Go, Verbal Memory, Digit Span, Stroop).
--  **Confounding variables** (e.g., sleep, stress, fatigue) and **outliers** are carefully monitored and noted during data logging to improve reliability.
 
 ---
 
