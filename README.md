@@ -115,7 +115,7 @@ Data was collected under controlled conditions using either **Chess.com** or **L
 To ensure data quality and minimize bias in the analysis of the relationship between chess playing and cognitive performance:
 
 -  All data (chess sessions and cognitive tests) is recorded **immediately after each session** to maintain accuracy and reduce memory bias.
--  Information is **systematically organized** by date and test type (Go/No-Go, Verbal Memory, Digit Span, Stroop).
+-  Information is **systematically organized** by date and test type (Reaction time Test, Verbal Memory, Digit Span, Stroop).
 
 ---
 
