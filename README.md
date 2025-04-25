@@ -27,14 +27,7 @@ I decided to work on this topic, because chess is playing a huge role in my dail
 
 ##  Sources
 
-###  Go/No-Go Test
-- **Purpose**: Assesses response inhibition and impulse control.
-- **Scientific Reference**:  
-  [A Formal Cognitive Model of the Go/No-Go Discrimination Task](https://pmc.ncbi.nlm.nih.gov/articles/PMC2752340/)
-- **Online Tool**:  
-  [PsyToolkit - Go/No-Go Task](https://www.psytoolkit.org/experiment-library/go-no-go.html)
 
----
 
 ###  Digit Span Test
 - **Purpose**: Measures short-term and working memory.
