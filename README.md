@@ -129,44 +129,35 @@ Throughout the study period, data will be collected using the following methods:
 ## **Data Processing**
 - **Data Cleaning:**
 Converted date and time into appropriate formats.
-
-
+There is no outliers, because the test results are not extreme with eachother.I don't need to apply any method for deleting outliers.
 
 ##  **Visualization Techniques**
 
-### **Univariate Analysis**
-- **Histogram for Play Time (min)**  
-  To explore the distribution of chess session durations.
-- **Histogram for Accuracy (%)**  
-  To understand the spread and consistency of chess performance.
-- **Histogram for Stroop Score (Before & After)**  
-  To evaluate attention and interference control levels individually.
-- **Count Plot for Game Type**  
-  To visualize frequency of Blitz, Rapid, and Classical games.
 
----
+### Univariate Analysis
+- **Histograms for Cognitive Test Scores (Before & After)**  
+  Used to assess the distribution and central tendency of individual tests like Stroop, Digit Span, Reaction Time, and Verbal Memory.
+- **Bar Plot for Chess Activity Frequency**  
+  To visualize the number of days chess was played versus not played.
 
-### **Bivariate Analysis**
-- **Boxplots for Cognitive Test Scores (Before vs After)**  
-  Used to compare memory (Digit Span), attention (Stroop), and reaction time changes across sessions.
-- **Scatter Plots**  
-  - *Play Time vs Cognitive Improvements (Stroop/Reaction Time)*  
-  - *Accuracy vs Digit Span Delta*  
-  To examine potential correlations between chess performance and cognitive gain.
+### Bivariate Analysis
+- **Boxplots (Before vs After)**  
+  Applied to each cognitive test (Stroop, Reaction, Digit Span, Verbal Memory) to compare performance change within individuals.
+- **Scatter Plots (After Score vs Improvement)**  
+  To assess whether higher post-test scores correspond to greater or lesser improvements and if this pattern differs by chess activity.
 
----
-
-### **Multivariate Analysis**
-- **Grouped Bar Plots**  
-  Compare chess vs non-chess days across cognitive outcomes.
+### Multivariate Analysis
+- **Grouped Scatter Plots with Hue = Chess Played?**  
+  To show differences in cognitive improvements based on whether chess was played on that day (Yes/No).
 - **Correlation Heatmap**  
-  To explore relationships between chess metrics (duration, accuracy, blunders) and cognitive metrics (test deltas).
-- **Line Charts (Timeline)**  
-  To track day-by-day progress of chess performance and mental sharpness.
+  To examine relationships between chess activity and different test improvement metrics.
+- **Line Plot for Daily Reaction Time or Stroop Trends**  
+  Used to track changes in cognitive measures over time.
+
 
 ---
 
-##  **Machine Learning Models** *(optional extension)*
+##  **Machine Learning Models** *(optional extension not used in this proejct)*
 > For predicting cognitive performance based on gameplay features:
 - **Linear Regression**
 - **Decision Tree Regressor**
