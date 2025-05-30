@@ -259,7 +259,7 @@ It is important to note that if we had a longer dataset (for example, over six m
 
 ##  Comprehensive Machine Learning Analysis
 
-To extend the hypothesis testing phase, multiple machine learning models were implemented across five different cognitive test datasets to understand how chess playing habits may influence performance. Feature engineering, classification, regression, confusion matrix evaluation, and decision tree visualization were employed in depth.
+To extend the hypothesis testing phase, multiple machine learning models were implemented across five different cognitive test datasets to understand how chess playing habits may influence performance. Feature engineering, classification, regression, confusion matrix evaluation, and decision tree visualization were employed in depth.In addition to this an extra external big dataset is used in order to test ML in large samples and avoid the self-collected data issiues.
 
 ---
 
