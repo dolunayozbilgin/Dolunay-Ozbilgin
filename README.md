@@ -256,99 +256,103 @@ Also, test scores on days without chess were generally lower than the "after" sc
 It is important to note that if we had a longer dataset (for example, over six months or a year), we might have different results than we had. Past scientific studies already show that chess has positive long-term effects on thinking skills. However, with the current short-term data, we can only prove the instant impact on cognitive skills.
 
 
-##  Extended Machine Learning Analysis: Chess Playing & Cognitive Performance
 
-To complement the hypothesis testing phase, multiple machine learning models were applied across all cognitive test datasets in order to predict improvement and understand feature influence. These models were used to explore whether chess playing habits could be used as a predictor of cognitive enhancement, and to what extent baseline test performance plays a role.
+##  Comprehensive Machine Learning Analysis
+
+To extend the hypothesis testing phase, multiple machine learning models were implemented across five different cognitive test datasets to understand how chess playing habits may influence performance. Feature engineering, classification, regression, confusion matrix evaluation, and decision tree visualization were employed in depth.
 
 ---
 
 ###  Datasets Used
 
-- **reaction_time_datas.csv**  
-- **processed_digit_span_data_last.csv**  
-- **verbal_test_data.csv**  
-- **Stroop_score_datas.csv**  
-- **chess_datas1.csv**  
-- *(cleaned_kaggle_dataset.csv was explored but not used for final modeling)*
-
-Each dataset contains structured cognitive test results ("Before" and "After"), along with a corresponding `Chess_Played?` column and date. These were preprocessed and merged or pivoted as needed.
+- `reaction_time_datas.csv`
+- `processed_digit_span_data_last.csv`
+- `verbal_test_data.csv`
+- `Stroop_score_datas.csv`
+- `chess_datas1.csv`
+- `cleaned_kaggle_dataset.csv` (used for advanced modeling and testing generalization)
 
 ---
 
 ###  Feature Engineering
 
-For each dataset, the following new features were derived:
-
-- `Score_Diff`: Difference between "After" and "Before" scores  
-- `Score_Percent_Change`: Relative difference (After - Before) / Before  
-- `Did_Improve`: Binary class target: 1 if performance improved, else 0  
-- `Chess_Played`: Encoded as 1 (Yes) or 0 (No)
-
-These features allow both classification and regression models to be trained.
+For each dataset, the following features were generated:
+- `Score_Diff`: (After - Before)
+- `Score_Percent_Change`: Percentage improvement
+- `Did_Improve`: 1 if improved, else 0
+- `Chess_Played`: Encoded as binary variable
+- Additional preprocessing: comma-to-dot conversion, data pivoting, merging, and missing data handling
 
 ---
 
-###  Models Applied (Per Dataset)
+###  Machine Learning Models Applied
 
-Each dataset underwent training with **three machine learning models**:
+#### 1. **Random Forest Classifier**
+- Applied to all datasets
+- Task: Binary classification of `Did_Improve`
+- Best results in Reaction Time (~62.5% accuracy)
+- Feature importance consistently highlighted `Before` and `Score_Percent_Change`
 
-#### 1. **Random Forest Classifier**  
-- Task: Predict if a test score improved (`Did_Improve`)
-- Performance: Best results in Reaction Time (accuracy ~62%)
-- Feature importance showed most predictions driven by `Before` score and `Score_Percent_Change`, not `Chess_Played`
+#### 2. **Logistic Regression**
+- Used for interpretability
+- Accuracy moderate (~50%)
+- Reinforced Random Forest results: chess playing is not a strong standalone predictor
 
-#### 2. **Logistic Regression**  
-- Task: Classification with interpretable coefficients  
-- Performance: Generally lower (~50% accuracy), reinforced the insight that chess playing alone doesn't predict improvement
+#### 3. **Linear Regression**
+- Task: Predict actual `Score_Diff`
+- R² scores often very high (up to ~0.99), especially in Digit Span and Verbal Memory
+- Risk of overfitting due to small sample sizes
+- `Before` score dominated prediction strength
 
-#### 3. **Linear Regression**  
-- Task: Predict actual performance change (`Score_Diff`)  
-- Performance: High R² values (~0.99), especially in small datasets like digit span and reaction time  
-- Insight: Results likely reflect overfitting due to limited data; main predictor is `Before` score
+#### 4. **Decision Tree Classifier**
+- Applied to Verbal, Reaction Time, and Stroop datasets
+- Trees visualized and annotated in Turkish for clarity
+- Feature-based splits mainly focused on `Before` and `Score_Percent_Change`, rarely on `Chess_Played`
+- Tree depth limited for interpretability
 
----
-
-###  Model Comparison Summary
-
-| Dataset               | Best Model Type       | Accuracy / R² | Notes |
-|------------------------|------------------------|----------------|-------|
-| **Reaction Time**      | Random Forest Classifier | ~62% accuracy  | Best classification performance |
-| **Digit Span**         | Linear Regression        | ~0.98 R²       | Memory improvement predicted by baseline |
-| **Verbal Memory**      | Linear Regression        | ~0.99 R²       | High fit, but chess had low predictive power |
-| **Stroop Test**        | Random Forest            | ~58% accuracy  | Balanced model performance |
-| **Overall**            | Random Forest / Linear   | Mixed          | Chess playing consistently weak predictor |
-
----
-
-###  Feature Importance Insights
-
-Across datasets:
-- `Before` and `Score_Percent_Change` are the most influential features.
-- `Chess_Played` often had near-zero importance in all models.
-- Random Forest’s `feature_importances_` and Logistic Regression coefficients confirmed that the variance in improvement is mostly explained by baseline cognitive performance, not chess activity.
+#### 5. **Confusion Matrix Evaluations**
+- For each classifier, confusion matrices were generated
+- Clearly showed misclassifications where performance did not improve even when chess was played
+- Helped diagnose class imbalance effects
 
 ---
 
-###  Final Interpretation
+###  Model-by-Dataset Summary
 
-- Machine learning confirms the pattern observed in statistical hypothesis tests: **chess may correlate with cognitive gains**, but it does **not reliably predict** individual test improvements.
-- The strongest predictors are initial performance and the scale of proportional change.
-- The Verbal Memory and Stroop datasets suggest that individual variability outweighs the chess-playing effect in this limited sample.
+| Dataset            | Models Used                                | Best Result                        |
+|--------------------|---------------------------------------------|------------------------------------|
+| Reaction Time      | RFC, LR, LinReg, Decision Tree, ConfMatrix | RFC (~62%), LinReg (R² ~0.99)      |
+| Digit Span         | RFC, LR, LinReg                            | LinReg (R² ~0.98)                  |
+| Verbal Memory      | RFC, LR, LinReg, Decision Tree             | LinReg (R² ~0.99)                  |
+| Stroop Test        | RFC, LR, Decision Tree, ConfMatrix         | RFC (balanced ~58%)               |
+| Cleaned Kaggle Set | RFC, LinReg, ConfMatrix                    | LinReg generalization check        |
+
+---
+
+###  Feature Importance Takeaways
+
+- `Before` test scores are the strongest predictors
+- `Score_Percent_Change` also consistently important
+- `Chess_Played` typically had negligible predictive power in all models
+- Confirms that improvement is more tightly related to test history than chess sessions
 
 ---
 
-###  Limitations and Future Work
+### Conclusion
 
-- **Sample Size**: Small number of sessions per test limits generalizability and model power
-- **Feature Scope**: No control for sleep, nutrition, mood, or time-of-day effects
-- **Label Distribution**: Most datasets were imbalanced in `Did_Improve` class
-
-**Future enhancements may include**:
-- Larger, longitudinal dataset
-- Contextual features (sleep, diet, etc.)
-- Chess gameplay metadata (difficulty, opponent rating, etc.)
+- ML modeling confirms hypothesis testing results: **chess may support performance**, but does **not predict it** with high accuracy per session
+- The largest contributors to model accuracy were **prior test scores** and **relative improvement**, not chess activity
+- **Confusion matrices** and **decision trees** offered excellent insights into per-sample performance
+- Use of **cleaned_kaggle_dataset.csv** helped generalize insights to external data
 
 ---
+
+###  Recommendations for Future Work
+
+- Increase sample size per test
+- Incorporate contextual variables: mood, sleep, nutrition, stress
+- Consider time-series modeling or repeated-measures ML
+- Explore deep learning methods with attention to small dataset constraints
 
 
 
