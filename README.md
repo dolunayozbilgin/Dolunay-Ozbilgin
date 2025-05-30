@@ -254,3 +254,64 @@ In short, chess seems to boost different cognitive skills on the same day it is 
 Also, test scores on days without chess were generally lower than the "after" scores on chess-playing days. This supports the idea that chess playing helps with short-term cognitive improvement.
 
 It is important to note that if we had a longer dataset (for example, over six months or a year), we might have different results than we had. Past scientific studies already show that chess has positive long-term effects on thinking skills. However, with the current short-term data, we can only prove the instant impact on cognitive skills.
+
+##  Extended Machine Learning Analysis (Chess & Cognitive Tests)
+
+In the final stage of this project, machine learning techniques were applied to evaluate whether short-term cognitive test performance (reaction time, digit span, verbal memory) could be predicted by chess playing habits. Multiple models were tested using engineered features to enhance prediction accuracy and interpretability.
+
+###  Feature Engineering
+
+The original datasets (reaction time, digit span, and verbal memory scores) were cleaned and transformed into a format suitable for classification and regression models. The following new features were created:
+
+- `Score_Diff`: Difference between "After" and "Before" test results.
+- `Score_Percent_Change`: Proportional improvement in performance.
+- `Did_Improve`: Binary target for classification tasks (`1` if performance improved, else `0`).
+- `Chess_Played`: Encoded as 1 (Yes) or 0 (No) to indicate chess activity.
+
+All three datasets were analyzed individually using these new features.
+
+###  Applied Machine Learning Models
+
+Three models were applied and compared on each dataset:
+
+1. **Random Forest Classifier**
+   - Task: Predict `Did_Improve` (Binary Classification)
+   - Best results on **reaction time** dataset with ~62.5% accuracy.
+   - Chess playing had minimal predictive power; most classification was driven by initial test scores.
+
+2. **Logistic Regression**
+   - Task: Simple interpretable binary classification
+   - Performance was moderate (~50%), validating Random Forest findings: chess playing did not significantly influence short-term cognitive test improvement.
+
+3. **Linear Regression**
+   - Task: Predict actual performance change (`Score_Diff`)
+   - High R² values on all datasets (up to 0.99), but small dataset size suggests possible overfitting.
+   - Most variance explained by `Before` score, not chess activity.
+
+###  Model Summary
+
+| Model               | Task Type         | Accuracy / R² | Notes |
+|--------------------|-------------------|---------------|-------|
+| Random Forest       | Classification    | ~62%          | Best classifier, chess effect minimal |
+| Logistic Regression | Classification    | ~50%          | Low performance, confirms weak chess signal |
+| Linear Regression   | Regression        | ~0.99 R²      | Strong fit, but likely overfitting due to small data size |
+
+###  Feature Importance Insights
+
+Feature importance graphs showed that:
+- `Before` test score and `Score_Percent_Change` were dominant predictors.
+- `Chess_Played` contributed almost nothing to any model.
+
+This suggests that chess may improve cognition generally but is not **predictively strong** on a per-session basis.
+
+###  Conclusion from ML Phase
+
+- Machine learning confirms the **lack of strong short-term predictive power** of chess playing on cognitive test performance.
+- However, engineered features such as percentage change in scores helped models learn useful patterns about general test performance.
+- Results support earlier hypothesis testing: while chess might help cognitively over time, its immediate predictive value in small, personal datasets is limited.
+
+Further improvements could include:
+- Collecting more longitudinal data.
+- Including other variables (sleep, fatigue, nutrition, emotional state).
+- Testing time-of-day effects or repeated chess exposure patterns.
+
